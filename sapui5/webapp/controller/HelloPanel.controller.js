@@ -23,6 +23,12 @@ sap.ui.define([
 
                 MessageToast.show(sMsg);
 
+            },
+
+            onOpenDialog: function () {
+
+                this.getOwnerComponent().openHelloDialog();
             }
+
         });
     });
