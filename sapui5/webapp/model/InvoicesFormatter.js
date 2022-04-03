@@ -8,7 +8,7 @@ sap.ui.define([], function () {
                 case 'A': return resourcecBoundle.getText("invoiceStatusA");
                 case 'B': return resourcecBoundle.getText("invoiceStatusB");
                 case 'C': return resourcecBoundle.getText("invoiceStatusC");
-                default: return sStatus;
+                default: return resourcecBoundle.getText("invoiceStatusA"); //sStatus;
             }
         }
     }
